@@ -1,6 +1,6 @@
 import { Navbar, Nav } from 'react-bootstrap';
 const MyNavbar = () => (
-    <Navbar bg="dark" variant="dark">
+  <Navbar bg="dark" variant="dark">
     <Navbar.Brand href="#">Bookstore</Navbar.Brand>
     <Nav className="mr-auto">
       <Nav.Link href="#">Home</Nav.Link>
