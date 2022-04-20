@@ -10,7 +10,9 @@ function App() {
     <div>
       <MyNavbar />
       <WelcomeMSG />
-      <MyBooks />
+      <div className='booksCentered'>
+        <MyBooks />
+      </div>
       <MyFooter />
     </div>
   )

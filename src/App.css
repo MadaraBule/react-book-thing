@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+.MyFavFooter {
+background-color: #282c34;
+color: aliceblue;
+padding-top: 2em;
+padding-bottom: 6em;
+text-align: center;
+}
+.book-cover{
+  width: 16em;
+  margin-bottom: 4em;
+}
+.BookCardsBody {
+  background-color: #282c34;
+  padding: 6px;
+  color: aliceblue;
+}
+.book-images{
+  object-fit: cover;
+  height: 20em;
+  padding: 0%;
+}
+.WelcomeMessage{
+  width: 100%;
+  height: 14em;
+}
+.booksCentered {
+  display: flex;
+  justify-content: center;
+  padding-left: 2em;
+  padding-right: 2em;
+}

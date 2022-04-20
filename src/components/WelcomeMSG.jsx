@@ -1,7 +1,7 @@
 import { Card } from 'react-bootstrap'
 
 const WelcomeMSG = () => {
-    <Card className="card">
+    <Card className="WelcomeMessage">
     <Card.Body>
         <Card.Title>
             <p>Welcome user!</p>

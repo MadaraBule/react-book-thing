@@ -7,8 +7,8 @@ export default function MyBooks() {
     return <div className="d-flex flex-wrap">{
         horror.map(book => {
             return <Card className="book-cover">
-                < Card.Img variant="top" src={book.img} />
-                <Card.Body>
+                < Card.Img className='book-images' variant="top" src={book.img} />
+                <Card.Body className='BookCardsBody'>
                     <Card.Title>
                         {book.title}
                     </Card.Title>

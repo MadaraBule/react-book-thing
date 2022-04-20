@@ -1,5 +1,5 @@
 const MyFooter = () => (
-    <footer>
+    <footer className="MyFavFooter">
   <p>Strive Book Cafe</p>
   <p>All Rights Reserved</p>
 </footer> );
